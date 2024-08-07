@@ -22,7 +22,6 @@ public interface PokemonUserRepo extends JpaRepository<PokemonUser, Long> {
 	   PokemonUser findByPokemonName(String pokemonName);
 	 //  List<PokemonUser> findByPokemonOwnerName(String pokemonOwnerName);
        List<PokemonUser> findByOwnerId(Long id);
-	   // PokemonUser findByName(String name); // Ensure 'name' matches the field in PokemonUser
-     //  List<PokemonUser> findByPokemonOwner(PokemonOwner name);
+	  //  List<PokemonUser> findByPokemonOwner(PokemonOwner name);
      //  List<PokemonUser> getPokemonsByOwnerName(String pokemonOwnerName);
 }
